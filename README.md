@@ -1,68 +1,18 @@
-![Uploading image.png…]()
+🚀 Entusiasta do JavaScript30 🚀
 
-JavaScript30
-Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
+Olá! meu nome é Gustavo Silva, e recentemente concluí o Desafio de 30 Dias de JavaScript (JavaScript30). Durante um mês emocionante, mergulhei profundamente no mundo do JavaScript, HTML e CSS aprimorando minhas habilidades, expandindo meu conhecimento e descobrindo novos horizontes.
 
-Grab the course at https://JavaScript30.com
+💡 O que você encontrará nesse repositório:
 
-Community #JavaScript30 Content
-Feel free to submit a PR by adding a link to your own recaps, guides, or reviews!
+🎉 Arquivos iniciais e soluções completas para cada desafio do JavaScript30.
+📝 Resumos detalhados e reflexões sobre minhas experiências diárias.
+💻 Demonstração de projetos concluídos em GitHub Pages e Codepen.
+💬 Meu compromisso:
 
-Arjun Khode’s blog about summaries for each day, including fixed glitches, bugs and extra features.
-Nitish Dayal's Text Guides are great for those who like reading over watching.
-Thorsten Frommen shares how he solved the exercises before viewing the answers.
-Soyaine 写的中文指南包含了过程记录和难点解释
-乔木 录制的讲解视频 看中文讲解视频一起学习 Javascript30 吧! Javascript30 中 CSS/JS/HTML 视频讲解
-Ayo Isaiah's Recaps and Lessons Learned.
-Adriana Rios shares her alternative solutions.
-Michael Einsohn publishes each challenge after watching the video once.
-Mike Ekkel
-Yusef Habib lessons and tricks learned, and a gh-page to see working all the mini-projects.
-Amelie Yeh 30 lesson notes with things I've learned, and those important recaps. and directly view my demos here 🇹🇼😄
-Winar的JavaScript30天挑战，记录练习过程，重难点和其他的解决方案。🎨
-Rayhatron - walkthroughs, recaps, and lessons learned.
-Andrei Dobra Full repo with lessons learned and a gh-page with all the exercises.
-从零到壹全栈部落,春哥发起的从零到壹全栈部落，旨在带领大家一起学习，一起输出，文档化，代码化，中文视频化，全栈部落口号：输出是最好的学习方式。
-Usmaan Ali's summary of the technical skills learned from each project. He's also posting them as separate blog posts here.
-Axel's lessons learned and a showcase with the projects.
-Chris 中文實戰，目標描述、過程紀錄。
-Muhammad D. Ramadhan's blog. He shamlesly mixed his personal life with 30 day JavaScript challenge to increase his learning retention. He also summarised the challenge on one single page. Do not read his blog!
-Lee Keitel's Blog includes summaries of each lesson, what I learned from each one, and my thoughts about the topic taught and using them in the future.
-Dustin Hsiao 包含了各篇介紹、 效果Demo、各篇詳解及記錄過程，附上部分延伸閱讀及gh-page。
-GuaHsu - 紀錄各篇練習過程與心得，並嘗試擴充部分練習，也做了一個包含全部練習的介紹站🇹🇼
-Daniela's completed challenges on GitHub Pages and Codepen 🙌 💪 👍
-Dmitrii Pashutskii's code of all challenges on GitHub with Pages and review blog posts.
-Abid Hasan's completion of all challenges. This was awesome!! Learned so much! 👍
-Yusong Notes Records Yusong JS 30 days note and demo. 🌟
-Ding's Implementation code and online demo.
-Herminio Torres lessons and tricks learned, and a gh-page to see working all the mini-projects.
-Dmytro Borysovskyi says many thanks for the course to Wes 🤝 It was incredible challenge 👌 The full repository with code available here and demos can be reached by the link to gh-pages.👍👍👍
-Kizito's follow along repo with completed challenges and notes.
-VannTile's repository and GitHub Pages showcase. Thank you for a great ⌨️ experience.
-Alex Kim completed all the challenges. You can check them out at GitHub pages.
-Mikhail Thomas created JS30++ to add another level of challenge on top of this already great course.
-Ramon Morcillo finished this awesome challenge!. You can see the showcase of his implementations on this link.
-Santiago Escobar's repository and GitHub Pages showcase.
-Harry Xie 紀錄 30 天的練習筆記在 此連結.
-Van Ribeiro's about demos and recaps. On GitHub Repo there's a summary about what was learned and researched.
-Mugilan is currently doing this challenge. Check out his Repo and the Live Demo.
-Eshan Vohra is currently doing this challenge. Check out my repo here.
-RegusAl is currently doing this challenge. Check out my repo here.
-Ayush Gupta's implementation of JavaScript30 challenge with some add-ons & updated design.
-filipkowal Fix to flex panels (5th day) so the panels deactivate when clicked on another one.
-Mo. Saif'snote on lessons learned and a gh-pages showcase for the projects.
-Stiaannel's implementation of the Javascript30 challenge, with small design changes and a couple of extra features.
-Kelly CHI's complete JavaScript30 challenges! Click the links to check demos and notes of each challenge. 🇹🇼 🌟
-Issam Seghir added custom solutions and styles 🍧, improved performance, including fixed bugs/issus 💢. , added articles for each exercise 📝.
-Alternative Implementations
-Here are some links of people who have done the tutorials, but in a different language or framework:
+🤝 Compartilhar conhecimento e experiências com outros entusiastas de JavaScript.
+🌱 Continuar aprendendo e explorando novos conceitos dentro do ecossistema JavaScript.
+Junte-se a mim nesta jornada emocionante pelo mundo do JavaScript! Se você também concluiu o JavaScript30 ou está interessado em aprender, vamos nos conectar e inspirar uns aos outros.
 
-Thomas Mattacchione JavaScript 30 written in ClojureScript.
-Dave Follett's blog series, A New Vue on #JavaScript30, where he explores re-implementing #JavaScript30 projects using Vue.
-Akinjide Bankole used Node.js with Jade to solve the exercises.
-Adrien Poly a modest attempt to convert Drum Kit, Video Player, Local Tapas, TypeHead to Stimulus JS framework in a Rails App.
-Bogdan Lazar all the JavaScript 30 written in TypeScript.
-Will Wager another TypeScript implementation!
-marcoSven solution suggestion for 10 - Hold Shift and Check Checkboxes.
-ALMaclaine Javascript 30 written in Dart 2.0.
-Connie Leung Javascript 30 written in Angular and RxJS.
+#JavaScript30 #DesenvolvimentoWeb #AprendizadoContínuo
+
+Para entrar em contato, sinta-se à vontade para enviar um e-mail para gu-silva16@hotmail.com.
