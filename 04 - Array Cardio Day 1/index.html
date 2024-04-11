@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Cardio</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+    <p><em>Psst: have a look at the JavaScript Console</em>💁</p>
+    <script>
+        const inventors = [
+            { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
+            { first: 'Thomas', last: 'Edison', year: 1847, passed: 1931 },
+            { first: 'Marie', last: 'Curie', year: 1867, passed: 1934 },
+            { first: 'Nikola', last: 'Tesla', year: 1856, passed: 1943 },
+            { first: 'Leonardo', last: 'da Vinci', year: 1452, passed: 1519 },
+            { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 },
+            { first: 'Alexander', last: 'Graham Bell', year: 1847, passed: 1922 },
+            { first: 'Steve', last: 'Jobs', year: 1955, passed: 2011 },
+            { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+            { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
+            { first: 'James', last: 'Watt', year: 1736, passed: 1819 },
+            { first: 'Benjamin', last: 'Franklin', year: 1706, passed: 1790 }
+        ];
+
+        const peoples = [
+            'Silva, Gustavo', 'Luiz, Eduardo', 'Santos, Ana', 'Pereira, Carlos', 'Oliveira, Maria',
+            'Souza, João', 'Costa, Amanda', 'Martins, Bruno', 'Rodrigues, Juliana', 'Ferreira, Rafael',
+            'Almeida, Laura', 'Carvalho, Pedro', 'Gomes, Sofia', 'Nascimento, Gabriel', 'Lima, Camila',
+            'Araujo, Lucas', 'Cardoso, Isabela', 'Ribeiro, André', 'Pinto, Letícia', 'Mendes, Thiago'
+        ];
+
+        const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 
+        'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+        // 1. Array.prototype.filter()
+        // 1. Filtra todos inventores que nasceram no seculo XVI 
+        const fifiteen = inventors.filter(inventor => ((inventor.year >= 1500 && inventor.year < 1600)));
+
+        console.table(fifiteen);
+
+        // 2. Array.prototype.map()
+        // 2. Mostra todos inventores somente com nome e sobre nome 
+        const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+
+        console.table(fullNames);
+
+        // 3. Array.prototype.sort()
+        // 3. mostra todos inventores pelo ano de nascimento do mais novo para o mais velho
+        const ordered = inventors.sort((firsPerson, secondPerson) => firsPerson.year > secondPerson.year ? 1 : -1);
+
+        console.table(ordered);
+
+        // 4. Array.prototype.reduce()
+        // 4. Quantos anos viveram todos inventores juntos ?
+        const totalYears = inventors.reduce((total, inventor) => {
+            return total + (inventor.passed - inventor.year);
+        }, 0 );
+
+        console.table(totalYears);
+
+        // 5. Classifique os inventores pelos anos vividos
+        const oldest = inventors.sort(function(a, b){
+            const lastGuy = a.passed - a.year;
+            const firstGuy = b.passed - b.year;
+            return lastGuy > firstGuy ? -1 : 1 ;
+        });
+
+        console.table(oldest);
+
+        // 6. Cria uma lista das avenidas de Paris que possuem 'de' em qualquer lugar do nome
+        // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+        // 7. Organizar nome das pessoas [peoples] 
+        // Organiza em ordem alfabética pelo ultimo nome
+        const aplha = peoples.sort((lastOne, nextOne) => {
+            const [aLast, bFirst] = lastOne.split(', ');
+            const [bLast, aFirst] = nextOne.split(', ');
+            return aLast > bLast ? 1 : -1 ;
+        });
+        console.table(aplha);
+
+        // 8. Exercicio de redução 
+        // Organizar as instancias [data]
+        const transports = data.reduce(function(obj, item){
+            if (!obj[item]){
+                obj[item] = 0;
+            }
+            obj[item]++;
+            return obj;
+        }, {} );
+
+        console.table(transports);
+
+    </script>
+    
+</body>
+</html>
