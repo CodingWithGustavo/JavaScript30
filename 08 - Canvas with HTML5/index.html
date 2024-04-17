@@ -20,7 +20,7 @@
         ctx.strokeStyle = '#000'; // dessa forma pode ser ultilizado para assinaturas digitais. é necessario comentar a linha 34
         ctx.lineJoin = 'round';
         ctx.lineCap = 'round';
-        ctx.lineWidth = 100;
+        ctx.lineWidth = 10;
 
         let isDrawing = false;
         let lastX = 0;
@@ -53,6 +53,8 @@
             } else {
                 ctx.lineWidth--;
             }
+
+            // para fixar o Width da linha  basta comentar da linha 51 até a 55.
         };
 
         canvas.addEventListener('mousedown', (e) => {
