@@ -17,7 +17,7 @@
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
-        ctx.strokeStyle = '#BADA55';
+        ctx.strokeStyle = '#000'; // dessa forma pode ser ultilizado para assinaturas digitais. é necessario comentar a linha 34
         ctx.lineJoin = 'round';
         ctx.lineCap = 'round';
         ctx.lineWidth = 100;
@@ -31,7 +31,7 @@
         function draw(e){
             if (!isDrawing) return;
             console.log(e);
-            ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+            // ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
             ctx.beginPath();
 
             ctx.moveTo(lastX, lastY);
@@ -63,7 +63,7 @@
         canvas.addEventListener('mousemove', draw);
         canvas.addEventListener('mouseup', () => isDrawing = false);
         canvas.addEventListener('mouseout', () => isDrawing = false);
-        
+
     </script>
     
     <style>
